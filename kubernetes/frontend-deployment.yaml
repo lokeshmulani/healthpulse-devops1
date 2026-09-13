@@ -19,7 +19,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: nginx:latest
+        image: 133197206805.dkr.ecr.us-east-1.amazonaws.com/healthpulse-frontend:v1
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 80
