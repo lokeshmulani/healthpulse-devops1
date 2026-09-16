@@ -1,7 +1,7 @@
 pipeline {
 agent any
 
-```
+
 environment {
     AWS_REGION = 'us-east-1'
     ECR_REPO = '133197206805.dkr.ecr.us-east-1.amazonaws.com/healthpulse-frontend'
@@ -86,6 +86,6 @@ post {
         '''
     }
 }
-```
+
 
 }
